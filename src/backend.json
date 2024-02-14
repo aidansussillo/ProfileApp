@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Profiles",
+  "description": "Database of user profiles including images, names, and high scores",
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9]+$": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of the user's image"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the user"
+        },
+        "highScore": {
+          "type": "integer",
+          "description": "The high score of the user"
+        }
+      },
+      "required": ["image", "name", "highScore"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
