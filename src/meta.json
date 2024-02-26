@@ -21,8 +21,8 @@
                     "createdAt": "2024-02-14T01:21:56.940Z",
                     "updatedAt": "2024-02-14T01:21:56.940Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b2785c25f66b709cbbfd7a/projects/65c24f48c48565fcc3a6523b/assets/65cc15b463ddf6af57d8743e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240214%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240214T012157Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=184d9487b0cb231115bc5cab3dbe07b1faa73cfa7cdc50f56627d9872b1a9bd142be83a5f6add0230ff4db99ea41317accc433c27698d006365a2e910d3bae2ac1c4fbb1d2317954f08643607998fa36fad0ee42ba5380a6cce8e04391b0331805696032a2a68ec32cedb5f2085d8c55c53f1f4cc1b9ceb0b55bbd5f34e418227e0fb8fa6fbe6f467ad916734554c36df12ad0532df32ae114f0279931773b5d1011334ca45cdd90d53b8ca1670d0116775c8023fd6d601dd5a0983fadb1a8f60a7dad48034f1051eb89788ecd77a53a0963d462f18b18c46285971bd180c5a9d1706f023abd7f82f8b1c187282584dbb29453d1c0bcbd33d0608f5b6292b510",
-                    "signedUrlExpirationTime": 1708046517028
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b2785c25f66b709cbbfd7a/projects/65c24f48c48565fcc3a6523b/assets/65cc15b463ddf6af57d8743e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240226%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240226T231955Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=19ae821ff44aec593eef64ec4fe800372c8fe07bdd366fa52d1e8b71de6217578323453bab1efea524e9bc162777edbf2553d3fb55f78a5c6aa7bf9a6e2eac924f7058cfbab7ea460dbb7cdcbec1770ead177c1d793f7b517908893cec15041bb97eb0c7e60f0b22dc757323ac7d7105f55ba03e28e345f04d189c57299e2f479b9233db33675eef685112aae67ba4fcca9aad39cf31d11afeb7d5ec89eb7125e33a4052dd7f0f159c50adc2c461644543063b223f4017239fd8b1c277345e77af448929fc0eea71389c0abb4560794e9720d207c6682f5dfbdb6ae8e44385d681d6abdeceae74714e54671cfc86b38acc2c3b3c8f51fceccca3227c8e393919",
+                    "signedUrlExpirationTime": 1709162395801
                 }
             },
             "backendUpgradeVersion": 24,
@@ -119,7 +119,7 @@
             "figmaComponents": {},
             "description": "Sign in safely to your account\n",
             "icon": null,
-            "projectName": "Profile Application",
+            "projectName": "Profile Application1",
             "settings": {
                 "teamId": null,
                 "appName": "Profile App",
@@ -218,7 +218,7 @@
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
@@ -227,7 +227,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -254,6 +254,21 @@
                 "f02ecca2-7be3-4e4e-8a2a-7202564180cb": {
                     "scope": "APP",
                     "name": "user ID",
+                    "screenId": "7e68143e-8784-47b6-8abd-2cff88750d3f"
+                },
+                "cf33e21a-9565-4563-b58f-be275e93b527": {
+                    "scope": "APP",
+                    "name": "pet",
+                    "screenId": "7e68143e-8784-47b6-8abd-2cff88750d3f"
+                },
+                "6c21bd0d-70c8-48e9-b8a4-5718157814ec": {
+                    "scope": "APP",
+                    "name": "age",
+                    "screenId": "7e68143e-8784-47b6-8abd-2cff88750d3f"
+                },
+                "295cdf6c-a5d5-4219-9ff5-c9f70ff4836e": {
+                    "scope": "APP",
+                    "name": "gender",
                     "screenId": "7e68143e-8784-47b6-8abd-2cff88750d3f"
                 }
             },
